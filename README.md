@@ -12,7 +12,7 @@ Windows 10 64bit
 ![在这里插入图片描述](https://github.com/MaoningGuan/git-ssh-proxy/blob/master/2.png)
 我们可以看到代理已经开启成功了，而且代理走的是：127.0.0.1:1080（这里在设置config文件的时候用到）
 接下来正式设置git ssh代理。
-（1）去到以下路径：
+（1）去到以下路径（注意修改路径为你的路径）：
 
 ```python
 C:\Users\18127\.ssh
