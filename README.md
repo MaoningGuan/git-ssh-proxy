@@ -17,7 +17,7 @@ Windows 10 64bit
 ```python
 C:\Users\18127\.ssh
 ```
-（2）新建config文件，文件名即为：config
+（2）在.ssh文件夹下新建config文件，文件名即为：config
 （3）config文件的内容如下：
 
 ```python
