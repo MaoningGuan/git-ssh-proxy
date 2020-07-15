@@ -42,5 +42,5 @@ Host ssh.github.com
 ```
 到此，就可以成功设置git ssh代理了。
 （4）查看代理设置的效果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200714185021959.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200714185021959.png)  
 这个速度跟你电脑本身的VPN代理下载速度有关，我自己的速度由几k/s变成了200多k/s。
