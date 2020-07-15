@@ -6,10 +6,10 @@ Windows 10 64bit
 ```
 ## 解决方法：
 前提条件是你的电脑已经开启了IP代理，
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200714184229665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d1YW5tYW9uaW5n,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://github.com/MaoningGuan/git-ssh-proxy/blob/master/1.png)
 此处，我自己已经在电脑用shadowsocks开启了VPN代理。
 查看代理开启结果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200714184501569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d1YW5tYW9uaW5n,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://github.com/MaoningGuan/git-ssh-proxy/blob/master/2.png)
 我们可以看到代理已经开启成功了，而且代理走的是：127.0.0.1:1080（这里在设置config文件的时候用到）
 接下来正式设置git ssh代理。
 （1）去到以下路径：
@@ -42,5 +42,5 @@ Host ssh.github.com
 ```
 到此，就可以成功设置git ssh代理了。
 （4）查看代理设置的效果：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200714185021959.png)  
+![在这里插入图片描述](https://github.com/MaoningGuan/git-ssh-proxy/blob/master/3.png)  
 这个速度跟你电脑本身的VPN代理下载速度有关，我自己的速度由几k/s变成了200多k/s。
