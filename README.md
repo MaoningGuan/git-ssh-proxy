@@ -5,7 +5,7 @@
 Windows 10 64bit
 ```
 ## 解决方法：
-前提条件是你的电脑已经开启了IP代理，
+前提条件是你的电脑已经开启了VPN代理（翻墙），
 ![在这里插入图片描述](https://github.com/MaoningGuan/git-ssh-proxy/blob/master/1.png)
 此处，我自己已经在电脑用shadowsocks开启了VPN代理。
 查看代理开启结果：
