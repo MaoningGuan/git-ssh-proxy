@@ -22,7 +22,7 @@ C:\Users\18127\.ssh
 
 ```python
 # 这里的 -a none 是 NO-AUTH 模式，参见 https://bitbucket.org/gotoh/connect/wiki/Home 中的 More detail 一节
-# 这里的connect需要转换工具需要windows环境变量配置
+# 这里的connect代理转换工具需要windows环境变量配置可直接使用，或者直接换成指向git下的connect.exe路径即可
 ProxyCommand connect -S 127.0.0.1:1080 -a none %h %p
 
 Host github.com
